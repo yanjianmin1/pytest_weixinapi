@@ -1,0 +1,9 @@
+[
+  "src/testcases/contact/depmanagement/test_create_dep.py::TestCreatDep::test_create_new_dep",
+  "src/testcases/contact/depmanagement/test_create_dep.py::TestCreatDep::test_create_exist_dep",
+  "src/testcases/contact/depmanagement/test_create_dep.py::TestCreatDep::test_create_dep_name_null",
+  "src/testcases/contact/depmanagement/test_dep_lists.py::TestDepLists::test_dep_lists_no_id",
+  "src/testcases/contact/depmanagement/test_dep_lists.py::TestDepLists::test_dep_lists_id1",
+  "src/testcases/contact/depmanagement/test_dep_lists.py::TestDepLists::test_dep_lists_id2",
+  "src/testcases/contact/depmanagement/test_dep_lists.py::TestDepLists::test_dep_lists_id_not_exist"
+]

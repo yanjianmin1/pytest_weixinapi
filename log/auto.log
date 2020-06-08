@@ -1,0 +1,428 @@
+2020-06-08 16:26:11,095 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:26:11,448 root INFO baseapi:11 Init base api interface
+2020-06-08 16:26:11,448 root INFO depmanagment:14 Init department management API
+2020-06-08 16:26:11,448 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:26:11,449 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:26:11,450 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:11,652 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:26:11,653 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:26:11,654 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:11,824 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1111
+2020-06-08 16:26:11,827 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:26:11,831 root INFO baseapi:11 Init base api interface
+2020-06-08 16:26:11,831 root INFO depmanagment:14 Init department management API
+2020-06-08 16:26:11,833 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:26:11,833 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:26:11,834 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:12,007 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:26:12,012 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': {'id': None}}
+2020-06-08 16:26:12,016 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:12,180 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=id HTTP/1.1" 200 1111
+2020-06-08 16:26:12,186 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:26:12,222 root INFO baseapi:11 Init base api interface
+2020-06-08 16:26:12,222 root INFO depmanagment:14 Init department management API
+2020-06-08 16:26:12,223 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:26:12,223 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:26:12,224 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:12,397 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:26:12,400 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': {'id': 2}}
+2020-06-08 16:26:12,402 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:12,695 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=id HTTP/1.1" 200 1111
+2020-06-08 16:26:12,696 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:26:12,701 root INFO baseapi:11 Init base api interface
+2020-06-08 16:26:12,701 root INFO depmanagment:14 Init department management API
+2020-06-08 16:26:12,702 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:26:12,702 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:26:12,703 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:12,877 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:26:12,878 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': {'id': 18}}
+2020-06-08 16:26:12,879 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:13,044 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=id HTTP/1.1" 200 1111
+2020-06-08 16:26:13,045 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:26:13,050 root INFO baseapi:11 Init base api interface
+2020-06-08 16:26:13,050 root INFO depmanagment:14 Init department management API
+2020-06-08 16:26:13,051 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:26:13,051 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:26:13,052 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:13,213 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:26:13,215 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': {'id': 10000}}
+2020-06-08 16:26:13,216 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:26:13,357 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=id HTTP/1.1" 200 1111
+2020-06-08 16:26:13,358 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:26:13,373 root INFO runner:23 End to execute  automaction cases
+2020-06-08 16:30:06,860 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:30:07,209 root INFO baseapi:11 Init base api interface
+2020-06-08 16:30:07,209 root INFO depmanagment:14 Init department management API
+2020-06-08 16:30:07,209 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:30:07,209 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:30:07,211 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:07,397 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:30:07,398 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:30:07,399 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:07,631 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1111
+2020-06-08 16:30:07,634 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:30:07,638 root INFO baseapi:11 Init base api interface
+2020-06-08 16:30:07,639 root INFO depmanagment:14 Init department management API
+2020-06-08 16:30:07,641 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:30:07,641 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:30:07,642 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:07,820 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:30:07,825 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:30:07,829 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:07,982 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1111
+2020-06-08 16:30:07,988 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:30:08,030 root INFO baseapi:11 Init base api interface
+2020-06-08 16:30:08,030 root INFO depmanagment:14 Init department management API
+2020-06-08 16:30:08,031 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:30:08,031 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:30:08,032 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:08,218 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:30:08,224 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:30:08,227 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:08,379 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:30:08,380 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:30:08,385 root INFO baseapi:11 Init base api interface
+2020-06-08 16:30:08,385 root INFO depmanagment:14 Init department management API
+2020-06-08 16:30:08,386 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:30:08,386 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:30:08,387 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:08,539 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:30:08,541 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:30:08,542 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:08,697 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:30:08,698 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:30:08,700 root INFO baseapi:11 Init base api interface
+2020-06-08 16:30:08,700 root INFO depmanagment:14 Init department management API
+2020-06-08 16:30:08,701 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:30:08,701 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:30:08,702 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:08,846 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:30:08,852 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 10000}
+2020-06-08 16:30:08,856 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:30:09,007 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=10000 HTTP/1.1" 200 208
+2020-06-08 16:30:09,009 root DEBUG baseapi:34 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1591605008_56_f522a57a0667a4307c99010842164d5c], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60123', 'department': []}
+2020-06-08 16:30:09,020 root INFO runner:23 End to execute  automaction cases
+2020-06-08 16:32:15,910 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:32:16,254 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:16,254 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:16,254 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:16,254 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:16,256 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:16,415 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:16,416 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:32:16,417 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:16,586 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1111
+2020-06-08 16:32:16,588 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:16,590 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:16,590 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:16,591 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:16,591 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:16,592 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:16,740 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:16,742 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:32:16,743 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:16,901 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:32:16,903 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:16,947 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:16,947 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:16,948 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:16,948 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:16,949 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:17,094 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:17,095 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:32:17,096 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:17,263 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:32:17,267 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:17,277 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:17,277 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:17,279 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:17,279 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:17,281 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:17,428 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:17,430 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 10000}
+2020-06-08 16:32:17,431 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:17,559 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=10000 HTTP/1.1" 200 208
+2020-06-08 16:32:17,561 root DEBUG baseapi:34 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1591605137_46_6d17b6289174627e5e23cc8e7c7b84c8], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60123', 'department': []}
+2020-06-08 16:32:17,567 root INFO runner:23 End to execute  automaction cases
+2020-06-08 16:32:48,148 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:32:48,492 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:48,492 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:48,492 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:48,492 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:48,494 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:48,789 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:48,790 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:32:48,791 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:48,921 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1111
+2020-06-08 16:32:48,923 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:48,925 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:48,925 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:48,926 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:48,926 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:48,927 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,076 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:49,081 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:32:49,084 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,243 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:32:49,244 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:49,246 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:49,246 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:49,247 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:49,247 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:49,248 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,390 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:49,391 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:32:49,392 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,539 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:32:49,541 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:32:49,543 root INFO baseapi:11 Init base api interface
+2020-06-08 16:32:49,543 root INFO depmanagment:14 Init department management API
+2020-06-08 16:32:49,544 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:32:49,544 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:32:49,545 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,688 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:32:49,693 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 10000}
+2020-06-08 16:32:49,694 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:32:49,854 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=10000 HTTP/1.1" 200 208
+2020-06-08 16:32:49,860 root DEBUG baseapi:34 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1591605169_56_0a86a42320e3df1df801bacf77103ebb], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60123', 'department': []}
+2020-06-08 16:32:49,872 root INFO runner:23 End to execute  automaction cases
+2020-06-08 16:34:12,525 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:34:12,903 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:13,078 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=UhH7sMhfRGvTXkVwixSudsPz4FFspjZLVSgagqOaRnM HTTP/1.1" 200 277
+2020-06-08 16:34:13,088 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:13,241 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=UhH7sMhfRGvTXkVwixSudsPz4FFspjZLVSgagqOaRnM HTTP/1.1" 200 277
+2020-06-08 16:34:13,283 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:13,435 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=UhH7sMhfRGvTXkVwixSudsPz4FFspjZLVSgagqOaRnM HTTP/1.1" 200 277
+2020-06-08 16:34:13,438 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:13,603 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=UhH7sMhfRGvTXkVwixSudsPz4FFspjZLVSgagqOaRnM HTTP/1.1" 200 277
+2020-06-08 16:34:13,616 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:13,616 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:13,616 root INFO depmanagment:20 dep_name:dep1
+2020-06-08 16:34:13,619 root INFO depmanagment:22 new_name:自动化唷酾等
+2020-06-08 16:34:13,621 root DEBUG depmanagment:25 new_part:{'name': '自动化唷酾等', 'order': 1, 'parentid': 1}
+2020-06-08 16:34:13,621 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:13,621 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:13,622 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:13,793 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:13,798 root DEBUG depmanagment:28 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:34:13,798 root DEBUG depmanagment:29 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:34:13,801 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:14,056 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 40
+2020-06-08 16:34:14,061 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'created', 'id': 19}
+2020-06-08 16:34:14,067 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:14,067 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:14,078 root DEBUG depmanagment:38 new_part:{'name': 'test', 'order': 2, 'parentid': 1}
+2020-06-08 16:34:14,078 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:14,078 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:14,079 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:14,252 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:14,254 root DEBUG depmanagment:41 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:34:14,256 root DEBUG depmanagment:42 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:34:14,258 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:14,433 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 194
+2020-06-08 16:34:14,438 root DEBUG baseapi:34 response:{'errcode': 60008, 'errmsg': 'department existed, hint: [1591605254_46_8f42e82f9124d2ccbeb7c3d610beba5b], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2020-06-08 16:34:14,445 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:14,445 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:14,450 root DEBUG depmanagment:38 new_part:{'name': None, 'order': 1, 'parentid': 1}
+2020-06-08 16:34:14,450 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:14,450 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:14,453 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:14,618 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:14,619 root DEBUG depmanagment:41 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:34:14,620 root DEBUG depmanagment:42 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:34:14,621 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:14,770 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 201
+2020-06-08 16:34:14,776 root DEBUG baseapi:34 response:{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1591605254_81_68e0d37513ada4eb8d58c51fa72ecb91], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}
+2020-06-08 16:34:14,783 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:14,783 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:14,783 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:14,783 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:14,786 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,072 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:15,073 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:34:15,074 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,225 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1172
+2020-06-08 16:34:15,227 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}, {'id': 19, 'name': '自动化唷酾等', 'parentid': 1, 'order': 1}]}
+2020-06-08 16:34:15,229 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:15,229 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:15,230 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:15,230 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:15,231 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,403 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:15,404 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:34:15,405 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,571 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:34:15,577 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:34:15,581 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:15,582 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:15,583 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:15,583 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:15,584 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,734 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:15,740 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:34:15,744 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:15,911 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:34:15,912 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:34:15,914 root INFO baseapi:11 Init base api interface
+2020-06-08 16:34:15,914 root INFO depmanagment:14 Init department management API
+2020-06-08 16:34:15,915 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:34:15,915 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:34:15,916 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:16,067 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:34:16,073 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 10000}
+2020-06-08 16:34:16,076 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:34:16,224 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=10000 HTTP/1.1" 200 208
+2020-06-08 16:34:16,226 root DEBUG baseapi:34 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1591605255_46_875961787f856466a5ae0d31db07ffc0], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60123', 'department': []}
+2020-06-08 16:34:18,893 root INFO runner:25 End to execute  automaction cases
+2020-06-08 16:35:09,785 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:35:10,142 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:10,142 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:10,142 root INFO depmanagment:20 dep_name:dep1
+2020-06-08 16:35:10,144 root INFO depmanagment:22 new_name:自动化现魈罨
+2020-06-08 16:35:10,146 root DEBUG depmanagment:25 new_part:{'name': '自动化现魈罨', 'order': 1, 'parentid': 1}
+2020-06-08 16:35:10,146 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:10,146 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:10,148 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:10,324 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:10,330 root DEBUG depmanagment:28 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:35:10,331 root DEBUG depmanagment:29 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:35:10,335 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:10,513 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 40
+2020-06-08 16:35:10,515 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'created', 'id': 20}
+2020-06-08 16:35:10,517 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:10,517 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:10,524 root DEBUG depmanagment:38 new_part:{'name': 'test', 'order': 2, 'parentid': 1}
+2020-06-08 16:35:10,524 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:10,524 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:10,525 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:10,685 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:10,689 root DEBUG depmanagment:41 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:35:10,690 root DEBUG depmanagment:42 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:35:10,693 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:10,842 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 194
+2020-06-08 16:35:10,844 root DEBUG baseapi:34 response:{'errcode': 60008, 'errmsg': 'department existed, hint: [1591605310_54_bf364ec3cfdb384f5195cda213488b81], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2020-06-08 16:35:10,846 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:10,846 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:10,847 root DEBUG depmanagment:38 new_part:{'name': None, 'order': 1, 'parentid': 1}
+2020-06-08 16:35:10,847 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:10,847 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:10,848 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:10,979 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:10,985 root DEBUG depmanagment:41 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:35:10,985 root DEBUG depmanagment:42 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:35:10,986 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,191 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 201
+2020-06-08 16:35:11,193 root DEBUG baseapi:34 response:{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1591605310_81_d1d614d6c4782d882b17b568b1fb8789], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}
+2020-06-08 16:35:11,194 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:11,195 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:11,195 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:11,195 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:11,196 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,334 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:11,336 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:35:11,337 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,481 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1233
+2020-06-08 16:35:11,483 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}, {'id': 19, 'name': '自动化唷酾等', 'parentid': 1, 'order': 1}, {'id': 20, 'name': '自动化现魈罨', 'parentid': 1, 'order': 1}]}
+2020-06-08 16:35:11,485 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:11,485 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:11,486 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:11,486 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:11,487 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,639 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:11,641 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:35:11,642 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,795 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:35:11,801 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:35:11,807 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:11,808 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:11,810 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:11,810 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:11,813 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:11,957 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:11,961 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:35:11,964 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:12,107 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:35:12,113 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:35:12,120 root INFO baseapi:11 Init base api interface
+2020-06-08 16:35:12,121 root INFO depmanagment:14 Init department management API
+2020-06-08 16:35:12,125 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:35:12,125 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:35:12,129 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:12,300 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:35:12,302 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 10000}
+2020-06-08 16:35:12,303 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:35:12,455 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=10000 HTTP/1.1" 200 208
+2020-06-08 16:35:12,457 root DEBUG baseapi:34 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1591605312_53_1d8f9794f8eb8cc9a0dd1004e9e31d26], from ip: 27.17.178.86, more info at https://open.work.weixin.qq.com/devtool/query?e=60123', 'department': []}
+2020-06-08 16:35:14,452 root INFO runner:25 End to execute  automaction cases
+2020-06-08 16:50:46,029 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:50:46,411 root INFO baseapi:11 Init base api interface
+2020-06-08 16:50:46,411 root INFO depmanagment:14 Init department management API
+2020-06-08 16:50:46,411 root INFO depmanagment:20 dep_name:dep1
+2020-06-08 16:50:46,412 root INFO depmanagment:22 new_name:自动化肆券萍
+2020-06-08 16:50:46,414 root DEBUG depmanagment:25 new_part:{'name': '自动化肆券萍', 'order': 1, 'parentid': 1}
+2020-06-08 16:50:46,414 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:50:46,415 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:50:46,416 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:50:46,597 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:50:46,599 root DEBUG depmanagment:28 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:50:46,599 root DEBUG depmanagment:29 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:50:46,600 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:50:46,807 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 40
+2020-06-08 16:50:46,808 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'created', 'id': 21}
+2020-06-08 16:50:46,811 root INFO baseapi:11 Init base api interface
+2020-06-08 16:50:46,811 root INFO depmanagment:14 Init department management API
+2020-06-08 16:50:46,811 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:50:46,811 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:50:46,812 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:50:46,974 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:50:46,980 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:50:46,984 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:50:47,153 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1294
+2020-06-08 16:50:47,156 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}, {'id': 19, 'name': '自动化唷酾等', 'parentid': 1, 'order': 1}, {'id': 20, 'name': '自动化现魈罨', 'parentid': 1, 'order': 1}, {'id': 21, 'name': '自动化肆券萍', 'parentid': 1, 'order': 1}]}
+2020-06-08 16:50:47,162 root INFO runner:34 End to execute  automaction cases
+2020-06-08 16:52:52,553 root INFO runner:19 Start to execute  automation cases
+2020-06-08 16:52:52,929 root INFO baseapi:11 Init base api interface
+2020-06-08 16:52:52,929 root INFO depmanagment:14 Init department management API
+2020-06-08 16:52:52,929 root INFO depmanagment:20 dep_name:dep1
+2020-06-08 16:52:52,930 root INFO depmanagment:22 new_name:自动化耳适螗
+2020-06-08 16:52:52,932 root DEBUG depmanagment:25 new_part:{'name': '自动化耳适螗', 'order': 1, 'parentid': 1}
+2020-06-08 16:52:52,932 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:52:52,932 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:52:52,934 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,101 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:52:53,106 root DEBUG depmanagment:28 url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+2020-06-08 16:52:53,106 root DEBUG depmanagment:29 params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:52:53,109 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,330 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 40
+2020-06-08 16:52:53,336 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'created', 'id': 22}
+2020-06-08 16:52:53,344 root INFO baseapi:11 Init base api interface
+2020-06-08 16:52:53,344 root INFO depmanagment:14 Init department management API
+2020-06-08 16:52:53,345 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:52:53,345 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:52:53,347 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,517 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:52:53,521 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+2020-06-08 16:52:53,525 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,661 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 1355
+2020-06-08 16:52:53,663 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'test学院1', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 3, 'name': '研发部', 'parentid': 1, 'order': 99999000}, {'id': 4, 'name': '自动化测试', 'parentid': 1, 'order': 1}, {'id': 5, 'name': '自动化测试111', 'parentid': 1, 'order': 1}, {'id': 6, 'name': 'test', 'parentid': 1, 'order': 1}, {'id': 7, 'name': '自动化摊忰椚', 'parentid': 1, 'order': 1}, {'id': 8, 'name': '自动化瑫鎒敕', 'parentid': 1, 'order': 1}, {'id': 9, 'name': '自动化怅琫瞞', 'parentid': 1, 'order': 2}, {'id': 10, 'name': '自动化铐棯蔥', 'parentid': 1, 'order': 1}, {'id': 11, 'name': '自动化舯迫庥', 'parentid': 1, 'order': 1}, {'id': 12, 'name': '自动化吝囡友', 'parentid': 1, 'order': 1}, {'id': 13, 'name': '自动化污虑侉', 'parentid': 1, 'order': 1}, {'id': 14, 'name': '自动化谆染稿', 'parentid': 1, 'order': 1}, {'id': 15, 'name': '自动化砗幽堙', 'parentid': 1, 'order': 1}, {'id': 16, 'name': '自动化埃熳哲', 'parentid': 1, 'order': 1}, {'id': 17, 'name': '自动化义壕洒', 'parentid': 1, 'order': 1}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}, {'id': 19, 'name': '自动化唷酾等', 'parentid': 1, 'order': 1}, {'id': 20, 'name': '自动化现魈罨', 'parentid': 1, 'order': 1}, {'id': 21, 'name': '自动化肆券萍', 'parentid': 1, 'order': 1}, {'id': 22, 'name': '自动化耳适螗', 'parentid': 1, 'order': 1}]}
+2020-06-08 16:52:53,664 root INFO baseapi:11 Init base api interface
+2020-06-08 16:52:53,664 root INFO depmanagment:14 Init department management API
+2020-06-08 16:52:53,665 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:52:53,665 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:52:53,666 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,817 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:52:53,819 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 2}
+2020-06-08 16:52:53,820 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:53,962 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=2 HTTP/1.1" 200 161
+2020-06-08 16:52:53,964 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 2, 'name': '测试部', 'parentid': 1, 'order': 100000000}, {'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:52:53,966 root INFO baseapi:11 Init base api interface
+2020-06-08 16:52:53,966 root INFO depmanagment:14 Init department management API
+2020-06-08 16:52:53,967 root INFO baseapi:20 params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+2020-06-08 16:52:53,967 root INFO baseapi:22 token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-06-08 16:52:53,968 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:54,110 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+2020-06-08 16:52:54,112 root INFO depmanagment:51 param:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg', 'id': 18}
+2020-06-08 16:52:54,113 urllib3.connectionpool DEBUG connectionpool:941 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-06-08 16:52:54,265 urllib3.connectionpool DEBUG connectionpool:442 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg&id=18 HTTP/1.1" 200 102
+2020-06-08 16:52:54,271 root DEBUG baseapi:34 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 18, 'name': 'app测试', 'parentid': 2, 'order': 100000000}]}
+2020-06-08 16:52:54,283 root INFO runner:34 End to execute  automaction cases

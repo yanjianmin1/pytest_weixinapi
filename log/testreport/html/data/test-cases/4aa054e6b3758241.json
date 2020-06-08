@@ -1,0 +1,76 @@
+{
+  "uid" : "4aa054e6b3758241",
+  "name" : "test_create_dep.TestCreatDep.test_create_dep_name_null",
+  "fullName" : "testcases.contact.depmanagement.test_create_dep.TestCreatDep.test_create_dep_name_null",
+  "historyId" : "9a5129ec18cfb4b97f411951e7d7217f",
+  "time" : {
+    "start" : 1591605310846,
+    "stop" : 1591605311193,
+    "duration" : 347
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2019f5a93bb2444",
+      "name" : "Captured log call",
+      "source" : "b2019f5a93bb2444.txt",
+      "type" : "text/plain",
+      "size" : 1838
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L53DBE3"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "21312-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcases.contact.depmanagement"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.contact.depmanagement"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_create_dep.TestCreatDep.test_create_dep_name_null"
+  }, {
+    "name" : "package",
+    "value" : "testcases.contact.depmanagement"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4aa054e6b3758241.json",
+  "parameterValues" : [ ]
+}

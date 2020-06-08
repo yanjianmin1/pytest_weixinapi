@@ -1,0 +1,14 @@
+baseapi.py                  11 INFO     Init base api interface
+depmanagment.py             14 INFO     Init department management API
+depmanagment.py             20 INFO     dep_name:dep1
+depmanagment.py             22 INFO     new_name:自动化耳适螗
+depmanagment.py             25 DEBUG    new_part:{'name': '自动化耳适螗', 'order': 1, 'parentid': 1}
+baseapi.py                  20 INFO     params:{'corpid': 'ww5283cbb77b230605', 'corpsecret': 'j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c'}
+baseapi.py                  22 INFO     token_rul:https://qyapi.weixin.qq.com/cgi-bin/gettoken
+connectionpool.py          941 DEBUG    Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+connectionpool.py          442 DEBUG    https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww5283cbb77b230605&corpsecret=j0hsyyeq3X0ZBE99CrRNngVewmzVKyUywPWE_TXV-5c HTTP/1.1" 200 277
+depmanagment.py             28 DEBUG    url:https://qyapi.weixin.qq.com/cgi-bin/department/create
+depmanagment.py             29 DEBUG    params:{'access_token': 'cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg'}
+connectionpool.py          941 DEBUG    Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+connectionpool.py          442 DEBUG    https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=cHtsMVXWD9MJDsuS_Hcuje3mbSzdfo4XVdm72eK19dRcg5lZ_ohFNP8qFevW2BkSP64PZo2NUeafELK7pyf7JaqBMJqdXvwelLOvXsUOgoOL_2_04TskXt0aTo7mIwI54Ye4StCI63s_fcKhib0_Ie3CooTyMfTyCOXXJ2NxmJyOpViGvIA_jLKtw2goydOCpY1ITxrJaR037t1Z0TEVYg HTTP/1.1" 200 40
+baseapi.py                  34 DEBUG    response:{'errcode': 0, 'errmsg': 'created', 'id': 22}

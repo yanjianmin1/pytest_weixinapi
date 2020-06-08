@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcases.contact.depmanagement.test_dep_lists.TestDepLists.test_dep_lists_id_not_exist","339",""
+"passed","testcases.contact.depmanagement.test_dep_lists.TestDepLists.test_dep_lists_id1","318",""
+"passed","testcases.contact.depmanagement.test_create_dep.TestCreatDep.test_create_new_dep","375",""
+"passed","testcases.contact.depmanagement.test_dep_lists.TestDepLists.test_dep_lists_no_id","289",""
+"passed","testcases.contact.depmanagement.test_create_dep.TestCreatDep.test_create_exist_dep","327",""
+"passed","testcases.contact.depmanagement.test_create_dep.TestCreatDep.test_create_dep_name_null","347",""
+"passed","testcases.contact.depmanagement.test_dep_lists.TestDepLists.test_dep_lists_id2","309",""

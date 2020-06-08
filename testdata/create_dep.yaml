@@ -1,0 +1,12 @@
+dep1:
+  name: 自动化耳适螗
+  order: 1
+  parentid: 1
+dep2:
+  name: test
+  order: 2
+  parentid: 1
+dep3:
+  name: null
+  order: 1
+  parentid: 1
