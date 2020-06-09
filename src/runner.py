@@ -22,7 +22,7 @@ if __name__ == '__main__':
     #              'testcases/contact/depmanagement/test_dep_lists.py'])
 
     # 执行testcase下所有用例
-        pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
+    pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
                  'testcases'])
 
     # 执行testcase下带指定标签的测试用例
