@@ -22,13 +22,13 @@ if __name__ == '__main__':
     #              'testcases/contact/depmanagement/test_dep_lists.py'])
 
     # 执行testcase下所有用例
-    # pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
-    #              'testcases'])
+        pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
+                 'testcases'])
 
     # 执行testcase下带指定标签的测试用例
-    pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
-                '-m', 'Success'])
+    #pytest.main(['-sq', '--cache-clear', '--disable-warnings', '--alluredir', '../log/testreport/xml',
+    #           '-m', 'Success'])
     # 生成html的测试报告
-    #print(subprocess.getstatusoutput('allure generate --clean ../log/testreport/xml -o ../log/testreport/html'))
+    print(subprocess.getstatusoutput('allure generate --clean ../log/testreport/xml -o ../log/testreport/html'))
 
     logging.info("End to execute  automaction cases")
